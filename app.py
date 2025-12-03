@@ -304,8 +304,8 @@ if client is None:
 # ---------- Sidebar: Candidate & Job Info ----------
 st.sidebar.header("👤 Candidate & Job Info")
 
-candidate_name = st.sidebar.text_input("Candidate name", placeholder="e.g., Pavan")
-job_role = st.sidebar.text_input("Job role", placeholder="e.g., Python Developer Intern")
+candidate_name = st.sidebar.text_input("Candidate name", placeholder="e.g.,keerthi")
+job_role = st.sidebar.text_input("Job role", placeholder="e.g., Backend developer")
 experience_level = st.sidebar.selectbox(
     "Experience level",
     ["Fresher", "0–1 years", "1–3 years", "3–5 years", "5+ years"],
